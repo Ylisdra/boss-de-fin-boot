@@ -9,9 +9,13 @@
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<!-- Your CSS link here -->
-	
+	<link rel="stylesheet" href="style-laura.css">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="hyruleapp/assets/img/icon/favicon.png">
 
@@ -20,51 +24,52 @@
 <body>
     <!-- header area start -->
     <header id="header">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <div class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    
+                       
                             <div class="">
                                 <a href="index.html"><img src="hyruleapp/assets/img/logo-sendiblue.png" alt="Hyrule Uber"></a>
                             </div>
                         </div>
                         <div class="">
-                            <div class=">
-                                <nav class="">
-                                    <ul>
-                                        <li class="active"><a href="#home">Accueil</a></li>
-                                        <li><a href="#feature">Produit</a></li>
-                                        <li><a href="#testimonials">Témoignages</a></li>
+                            <div class="navbar">
+                                <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-label="Toggle-navigation"><span class="text-white"><i class="fas fa-bars fa-2x"></i></span></button>
+                                <nav class="collapse collapse-navbar" id="menu">
+                                    <ul class="list-unstyled">
+                                        <li class="active"><a href="#home" class="text-white">Accueil</a></li>
+                                        <li><a href="#feature" class="text-white">Produit</a></li>
+                                        <li><a href="#testimonials" class="text-white">Témoignages</a></li>
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
+                        
                         <div class="">
                             <div class=""></div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </header>
     <!-- header area end -->
     <!-- slider area start -->
-    <section id="home" class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
+    <section id="home" class="container-fluid">
+        <div class="row" id="bg-header">
+            <div class="d-flex flex-row">
+                <div class="col-3 offset-5">
+                    <div class="m-1">
                         <img src="hyruleapp/assets/img/mobile/slider-left-img.png" alt="slider image">
                     </div>
                 </div>
             </div>
-            <div class="">
-                <div class="">
-                    <div class="">
+            <div class="col-3 offset-1">
+                <div>
+                    <div class="text-uppercase text-white mt-2">
                         <h2>Parce que vous méritez ce qu'il se fait de mieux !</h2>
                         <h5>Essayez Hyrule Uber</h5>
-                        <a class="" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i class="fa fa-play"></i>Regarder la vidéo</a>
+                        <a class="btn btn-outline-light p-3" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i class="fa fa-play"></i>Regarder la vidéo</a>
                     </div>
                 </div>
             </div>

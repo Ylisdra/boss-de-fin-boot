@@ -1,0 +1,14 @@
+#header {
+    background-color: blueviolet;
+}
+
+#bg-header {
+    background: linear-gradient(90deg, #fed800, #7000fe);
+}
+
+.btn-outline-light {
+    width: 15em;
+    height: 4em;
+    border: solid 2px;
+    border-radius: 45%;
+}
