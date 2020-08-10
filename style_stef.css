@@ -1,0 +1,41 @@
+body {
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    position: relative;
+    padding-bottom: .8em;
+    margin-bottom: .5em;
+} 
+.title:before, 
+.title:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title:before {
+    bottom: 0;
+    width: 8rem;
+    border-bottom: 2px solid var(--indigo);
+}
+
+.title:after {
+    bottom: 1px;
+    height: .8rem;
+    width: .8rem;
+    background-color: var(--indigo);
+    clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    transform: translate(-50%, 50%);
+    transform-origin: center;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
