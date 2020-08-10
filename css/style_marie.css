@@ -1,5 +1,5 @@
 .achivement{
-    background-image:linear-gradient(rgba(92, 30, 249, 0.8),rgba(92, 30, 249, 0.8)) , url("/hyruleapp/assets/img/bg/ach-bg-img.jpg");
+    background-image:linear-gradient(rgb(92, 30, 249,0.8),rgb(92, 30, 249)) , url("/hyruleapp/assets/img/bg/ach-bg-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,11 +14,14 @@
     font-size:x-large;
     font-weight: 900;
 }
+
+
 /*Code de Stéphane*/
 .title {
     position: relative;
     padding-bottom: .8em;
     margin-bottom: .5em;
+    text-align: center;
 } 
 .title:before, 
 .title:after {
@@ -44,3 +47,23 @@
     transform-origin: center;
 }
 
+.header-testimonials p{
+    text-align: center;
+}
+
+.header-testimonials{
+    margin-bottom:70px;
+}
+
+.bewiwi-wrapper {
+display: flex;
+justify-content: center;
+position: absolute;
+z-index: 1;
+width: 100%;
+transform: translateY(-50%);
+}
+
+.border-primary {
+    border-color: rgb(92, 30, 249);
+}
