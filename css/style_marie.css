@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 .achivement{
     background-image:linear-gradient(rgb(92, 30, 249,0.8),rgb(92, 30, 249)) , url("/hyruleapp/assets/img/bg/ach-bg-img.jpg");
     background-repeat: no-repeat;
@@ -65,5 +69,33 @@ transform: translateY(-50%);
 }
 
 .border-primary {
-    border-color: rgb(92, 30, 249);
+    border-color: rgb(92, 30, 249)!important;
+}
+
+.socials li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socials a {
+    color: grey;
+}
+
+.rounded-circle {
+    height: 75px;
+}
+
+.card-title {
+    margin-top: 2em;
+}
+
+#testimonials {
+    text-align: center;
+}
+footer {
+    background-color: rgb(92, 30, 249);
+    color:white;
+    padding-left:20px;
+    padding-bottom:auto;
+    margin:0;
 }
