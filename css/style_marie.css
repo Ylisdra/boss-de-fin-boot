@@ -82,6 +82,10 @@ left:0;
     color: grey;
 }
 
+i {
+    padding-right: 2em;
+}
+
 .rounded-circle {
     height: 75px;
 }
