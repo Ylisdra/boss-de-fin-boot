@@ -1,0 +1,104 @@
+body{
+    margin:0;
+}
+
+.achivement{
+    background-image:linear-gradient(rgb(92, 30, 249,0.8),rgb(92, 30, 249)) , url("/hyruleapp/assets/img/bg/ach-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5em;
+    
+}
+.achivement p,span{
+    font-size:x-large;
+    font-weight: 900;
+}
+
+
+/*Code de Stéphane*/
+.title {
+    position: relative;
+    padding-bottom: .8em;
+    margin-bottom: .5em;
+    text-align: center;
+} 
+.title:before, 
+.title:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title:before {
+    bottom: 0;
+    width: 8rem;
+    border-bottom: 2px solid var(--indigo);
+}
+
+.title:after {
+    bottom: 1px;
+    height: .8rem;
+    width: .8rem;
+    background-color: var(--indigo);
+    clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    transform: translate(-50%, 50%);
+    transform-origin: center;
+}
+/*Fin du code de Stéphane*/
+.header-testimonials p{
+    text-align: center;
+}
+
+.header-testimonials{
+    margin-bottom:70px;
+}
+
+.bewiwi-wrapper {
+display: flex;
+justify-content: center;
+position: absolute;
+z-index: 1;
+width: 100%;
+transform: translateY(-50%);
+left:0;
+}
+
+.border-primary {
+    border-color: rgb(92, 30, 249)!important;
+}
+
+.socials li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.socials a {
+    color: grey;
+}
+
+.rounded-circle {
+    height: 75px;
+}
+
+.card-title {
+    margin-top: 2em;
+}
+
+#testimonials {
+    text-align: center;
+}
+footer {
+    background-color: rgb(92, 30, 249);
+    color:white;
+    padding-left:20px;
+    padding-bottom:auto;
+    margin:0;
+    text-align: center;
+}
