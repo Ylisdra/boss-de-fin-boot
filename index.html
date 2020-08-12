@@ -14,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/style_marie.css" media="all"/>
 	
     <!-- Favicon -->
@@ -22,87 +23,95 @@
 </head>
 
 <body>
-    <!-- header area start -->
     <header id="header">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <a href="index.html"><img src="hyruleapp/assets/img/logo-sendiblue.png" alt="Hyrule Uber"></a>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class=">
-                                <nav class="">
-                                    <ul>
-                                        <li class="active"><a href="#home">Accueil</a></li>
-                                        <li><a href="#feature">Produit</a></li>
-                                        <li><a href="#testimonials">Témoignages</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class=""></div>
-                        </div>
-                    </div>
+        <div class="container-fluid">
+            <div class="container">
+            <div class="row">
+                <div class="col-12">
+                        
+                            <nav class="navbar navbar-expand-lg">
+                                <a class="navbar-brand col-9 col-lg-2" href="index.html"><img src="hyruleapp/assets/img/logo-sendiblue.png" alt="Hyrule Uber"></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="text-white"><i class="fas fa-bars fa-2x"></i></span></button>
+                                <div class="collapse navbar-collapse bg-nav col-3 offset-lg-7" id="navbarNavDropdown">
+                                  <ul class="navbar-nav ">
+                                    <li class="nav-item active">
+                                      <a class="nav-link text-white" href="#home">Accueil <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">Produit</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">Témoignages</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                            </nav>
+                    
                 </div>
+            </div>
             </div>
         </div>
     </header>
     <!-- header area end -->
     <!-- slider area start -->
-    <section id="home" class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
+    <section id="home" class="container-fluid">
+        <div class="container">
+        <div class="row">
+            <div class="d-flex flex-row">
+                <div class="col-3">
+                    <div class="pt-4 mt-4 d-none d-md-block">
                         <img src="hyruleapp/assets/img/mobile/slider-left-img.png" alt="slider image">
                     </div>
                 </div>
             </div>
-            <div class="">
-                <div class="">
-                    <div class="">
+            <div class="col-12 col-md-4 offset-1">
+                
+                    <div class="text-uppercase text-white text-left text-md-right pt-4 mt-4">
                         <h2>Parce que vous méritez ce qu'il se fait de mieux !</h2>
-                        <h5>Essayez Hyrule Uber</h5>
-                        <a class="" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i class="fa fa-play"></i>Regarder la vidéo</a>
+                        <h5 class="mt-4">Essayez Hyrule Uber</h5>
+                        <a class="btn btn-outline-light p-3" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i class="fa fa-play" id="play"></i>Regarder la vidéo</a>
                     </div>
-                </div>
+                
             </div>
         </div>
+    </div>
     </section>
     <!-- slider area end -->
     <!-- service area start -->
-    <div class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
+    <div class="container">
+    <div class="row cards">
+       
+            <div class="col-12 col-md-4">
+                <div class="card my-2 shadow-sm">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img1.png" alt="service image">
-                        <h2>Service d'appel</h2>
+                        <h2 class="mb-4">Service d'appel</h2>
                         <p>Sifflez et Epona vous rejoint immédiatement ! Sortez votre cravache et en route pour l'aventure !</p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="">
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card my-2 shadow-sm">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img2.png" alt="service image">
                         <h2>Notifications préventives</h2>
                         <p>Détection périodique des accidents de chevaux sur le réseau pour plus de fluidité</p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="">
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card my-2 shadow-sm">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img3.png" alt="service image">
                         <h2>Planifiez vos aventures</h2>
                         <p>Préparez vos prochains déplacements dans Hyrule et calculez vos temps de trajet</p>
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
+</div>
     <!-- service area end -->
     <!-- about area start -->
     <div class="">
