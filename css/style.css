@@ -1,7 +1,14 @@
 body{
     margin:0;
     font-family: 'Poppins', sans-serif;
+    line-height: 2;
+
 }
+
+img {
+    max-width: 100%;
+}
+
 /*Code de Laura*/
 #header {
     background-color: rgb(92, 30, 249);
@@ -45,8 +52,8 @@ body{
     margin-top: -8em;
 }
 
-.navbar-brand img {
-    width: 100%;
+.header__logo {
+    max-width: 12rem;
 }
 /*Fin du code de Laura*/
 
