@@ -14,97 +14,104 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style_marie.css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="css/style_stef.css" media="all"/>
-	
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_marie.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style_stef.css" media="all" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="hyruleapp/assets/img/icon/favicon.png">
 
 </head>
 
 <body>
-    <!-- header area start -->
     <header id="header">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <a href="index.html"><img src="hyruleapp/assets/img/logo-sendiblue.png"
-                                        alt="Hyrule Uber"></a>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand col-9 col-lg-2" href="index.html"><img
+                                    src="hyruleapp/assets/img/logo-sendiblue.png" alt="Hyrule Uber"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="text-white"><i class="fas fa-bars fa-2x"></i></span></button>
+                            <div class="collapse navbar-collapse bg-nav col-3 offset-lg-7" id="navbarNavDropdown">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item active">
+                                        <a class="nav-link text-white" href="#home">Accueil <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Produit</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Témoignages</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                        <div class="">
-                            <div class="">
-                                <nav class="">
-                                    <ul>
-                                        <li class="active"><a href="#home">Accueil</a></li>
-                                        <li><a href="#feature">Produit</a></li>
-                                        <li><a href="#testimonials">Témoignages</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class=""></div>
-                        </div>
-                    </div>
+                        </nav>
+
                 </div>
             </div>
         </div>
     </header>
     <!-- header area end -->
     <!-- slider area start -->
-    <section id="home" class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
+    <section id="home" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="pt-4 mt-4 d-none d-md-block">
                         <img src="hyruleapp/assets/img/mobile/slider-left-img.png" alt="slider image">
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <div class="">
+                <div class="col-12 col-md-4">
+
+                    <div class="text-uppercase text-white text-left text-md-right pt-4 mt-4">
                         <h2>Parce que vous méritez ce qu'il se fait de mieux !</h2>
-                        <h5>Essayez Hyrule Uber</h5>
-                        <a class="" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i class="fa fa-play"></i>Regarder
-                            la vidéo</a>
+                        <h5 class="mt-4">Essayez Hyrule Uber</h5>
+                        <a class="btn btn-outline-light p-3" href="http://www.youtube.com/embed/v=fsB1OzYy9uI"><i
+                                class="fa fa-play" id="play"></i>Regarder la vidéo</a>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- slider area end -->
     <!-- service area start -->
-    <div class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
+    <div class="container">
+        <div class="row cards">
+
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card my-2 shadow-sm card--simple">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img1.png" alt="service image">
-                        <h2>Service d'appel</h2>
+                        <h2 class="mb-4">Service d'appel</h2>
                         <p>Sifflez et Epona vous rejoint immédiatement ! Sortez votre cravache et en route pour
                             l'aventure !</p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="">
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card my-2 shadow-sm card--simple">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img2.png" alt="service image">
                         <h2>Notifications préventives</h2>
                         <p>Détection périodique des accidents de chevaux sur le réseau pour plus de fluidité</p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="">
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card my-2 shadow-sm card--simple">
+                    <div class="card-body text-center">
                         <img src="hyruleapp/assets/img/service/service-img3.png" alt="service image">
                         <h2>Planifiez vos aventures</h2>
                         <p>Préparez vos prochains déplacements dans Hyrule et calculez vos temps de trajet</p>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- service area end -->
@@ -255,36 +262,40 @@
                 <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
             </div>
 
-				<div class="col-12 col-md-6 mb-4">
-                    <div class='bewiwi-wrapper'><img class="rounded-circle" src="hyruleapp/assets/img/author/tst-author1.jpg" alt="author"></div>
-                    <div class="card border-primary">
-						<h4 class='card-title'>John Snow</h4>
-						<h5 class='card-subtitle text-muted mb-3'>Directeur</h5>
-						<p class="mx-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-						<ul class="socials pl-0">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-12 col-md-6 mt-5 mt-md-0">
-                    <div class='bewiwi-wrapper'><img class='rounded-circle'src="hyruleapp/assets/img/author/tst-author2.jpg" alt="author"></div>
-                    <div class="card border-primary">
-						<h4 class='card-title'>Cersei L.</h4>
-						<h5 class='card-subtitle text-muted mb-3'>Dictatrice</h5>
-						<p class='mx-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-						<ul class="socials pl-0">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-						</ul>
-					</div>
-				</div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class='bewiwi-wrapper'><img class="rounded-circle"
+                        src="hyruleapp/assets/img/author/tst-author1.jpg" alt="author"></div>
+                <div class="card border-primary">
+                    <h4 class='card-title'>John Snow</h4>
+                    <h5 class='card-subtitle text-muted mb-3'>Directeur</h5>
+                    <p class="mx-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <ul class="socials pl-0">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <div class='bewiwi-wrapper'><img class='rounded-circle'
+                        src="hyruleapp/assets/img/author/tst-author2.jpg" alt="author"></div>
+                <div class="card border-primary">
+                    <h4 class='card-title'>Cersei L.</h4>
+                    <h5 class='card-subtitle text-muted mb-3'>Dictatrice</h5>
+                    <p class='mx-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <ul class="socials pl-0">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- testimonial carousel area end -->
 
@@ -294,10 +305,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class='col-12'>
-                <p class='m-0'><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Ce template a été fait par des fans absolus de Zelda 2 - The Adventure of Link <i class="fa fa-heart-o" aria-hidden="true"></i> Le meilleur des Zelda
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                </div>            
+                    <p class='m-0'>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Tous droits réservés | Ce template a
+                        été fait par des fans absolus de Zelda 2 - The Adventure of Link <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> Le meilleur des Zelda
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

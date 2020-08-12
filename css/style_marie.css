@@ -1,6 +1,50 @@
 body{
     margin:0;
+    font-family: 'Poppins', sans-serif;
 }
+/*Code de Laura*/
+#header {
+    background-color: rgb(92, 30, 249);
+}
+
+#home {
+    background: linear-gradient(90deg, #fed800, rgb(92, 30, 249));
+    width: 100%;
+    padding-bottom: 10em;
+}
+
+@media screen and (max-width: 991px) {
+    .bg-nav{
+    background-color: #4900fe;}
+}
+
+.btn-outline-light {
+    width: 15em;
+    height: 4.2em;
+    border: solid 2px;
+    border-radius: 100px;
+    margin-top: 2em;
+}
+
+#play {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.3em;
+    margin-right: 0.3em;
+}
+
+.card {
+    z-index: 1;
+}
+
+.cards {
+    margin-top: -8em;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+/*Fin du code de Laura*/
 
 .achivement{
     background-image:linear-gradient(rgb(92, 30, 249,0.8),rgb(92, 30, 249)) , url("/hyruleapp/assets/img/bg/ach-bg-img.jpg");
@@ -63,7 +107,7 @@ body{
 display: flex;
 justify-content: center;
 position: absolute;
-z-index: 1;
+z-index: 2;
 width: 100%;
 transform: translateY(-50%);
 left:0;
