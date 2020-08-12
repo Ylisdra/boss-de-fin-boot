@@ -10,19 +10,36 @@ img {
 }
 
 /*Code de Laura*/
-#header {
+
+header {
+    margin-top: 4rem;
+}
+
+.header__nav {
     background-color: rgb(92, 30, 249);
 }
 
 #home {
     background: linear-gradient(90deg, #fed800, rgb(92, 30, 249));
     width: 100%;
-    padding-bottom: 10em;
+    padding: 10em 0 18em;
+
 }
 
-@media screen and (max-width: 991px) {
+.bg-nav{
+    margin-top: 1em;
+    background-color: #4900fe;
+    padding-left: 1em;
+}
+
+@media screen and (min-width: 992px) {
     .bg-nav{
-    background-color: #4900fe;}
+        background-color: transparent;
+        padding: 0;
+    }
+    .nav-link.active {
+        border-bottom: 2px solid #fff;
+    }
 }
 
 .btn-outline-light {

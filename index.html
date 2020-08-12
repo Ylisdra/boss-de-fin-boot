@@ -22,12 +22,13 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
     <header id="header">
         <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg w-100">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg header__nav fixed-top" id="navbar">
+                    <div class="container-lg">
+
                         <a class="navbar-brand header__logo" href="index.html">
                             <img src="hyruleapp/assets/img/logo-sendiblue.png" alt="Hyrule Uber">
                         </a>
@@ -37,22 +38,20 @@
                             <span class="text-white"><i class="fas fa-bars fa-2x"></i></span></button>
                         <div class="collapse navbar-collapse bg-nav justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link text-white" href="#home">Accueil <span
-                                            class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#home">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Produit</a>
+                                    <a class="nav-link text-white" href="#feature">Produit</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Témoignages</a>
+                                    <a class="nav-link text-white" href="#testimonials">Témoignages</a>
                                 </li>
                             </ul>
                         </div>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
             </div>
-        </div>
         </div>
     </header>
     <!-- header area end -->
@@ -80,7 +79,7 @@
     </section>
     <!-- slider area end -->
     <!-- service area start -->
-    <div class="container">
+    <div class="container-lg">
         <div class="row cards">
 
             <div class="col-12 col-md-4 mb-3">
@@ -220,33 +219,35 @@
     <!-- achivement area start -->
     <div class="achivement">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 py-2 col-md-3 py-md-5">
-                    <div class="clients">
-                        <div class="icon"><i class="fa fa-users"></i></div>
-                        <span class="counter">10k</span>
-                        <h5>Clients heureux</h5>
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-12 py-2 col-md-3 py-md-5">
+                        <div class="clients">
+                            <div class="icon"><i class="fa fa-users"></i></div>
+                            <span class="counter">10k</span>
+                            <h5>Clients heureux</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 py-2 col-md-3 py-md-5">
-                    <div class="accidents">
-                        <div class="icon"><i class="fa fa-book"></i></div>
-                        <span class="counter">978</span>
-                        <h5>Accidents évités</h5>
+                    <div class="col-12 py-2 col-md-3 py-md-5">
+                        <div class="accidents">
+                            <div class="icon"><i class="fa fa-book"></i></div>
+                            <span class="counter">978</span>
+                            <h5>Accidents évités</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 py-2 col-md-3 py-md-5">
-                    <div class="ovomaltine">
-                        <div class="icon"><i class="fa fa-coffee"></i></div>
-                        <span class="counter">150k</span>
-                        <h5>Tasses d'Ovomaltine</h5>
+                    <div class="col-12 py-2 col-md-3 py-md-5">
+                        <div class="ovomaltine">
+                            <div class="icon"><i class="fa fa-coffee"></i></div>
+                            <span class="counter">150k</span>
+                            <h5>Tasses d'Ovomaltine</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 py-2 col-md-3 py-md-5">
-                    <div class="boss">
-                        <div class="icon"><i class="fa fa-trophy"></i></div>
-                        <span class="counter">100</span>
-                        <h5>Boss éliminés</h5>
+                    <div class="col-12 py-2 col-md-3 py-md-5">
+                        <div class="boss">
+                            <div class="icon"><i class="fa fa-trophy"></i></div>
+                            <span class="counter">100</span>
+                            <h5>Boss éliminés</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -255,7 +256,7 @@
     <!-- achivement area end -->
 
     <!-- testimonial carousel area start -->
-    <div class="container-fluid py-5" id="testimonials">
+    <div class="container-lg py-5" id="testimonials">
         <div class="row">
             <div class="col-12 header-testimonials px-0">
                 <h2 class="title px-5 mx-5">C'est nos clients qui le disent</h2>
