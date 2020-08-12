@@ -37,6 +37,10 @@ body{
     z-index: 1;
 }
 
+.card--simple {
+    height:100%;
+}
+
 .cards {
     margin-top: -8em;
 }
