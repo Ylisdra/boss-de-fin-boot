@@ -50,7 +50,7 @@ body{
     transform: translate(-50%, 50%);
     transform-origin: center;
 }
-
+/*Fin du code de Stéphane*/
 .header-testimonials p{
     text-align: center;
 }
@@ -76,14 +76,11 @@ left:0;
 .socials li{
     list-style-type: none;
     display: inline-block;
+    margin-right: 1.5em;
 }
 
 .socials a {
     color: grey;
-}
-
-i {
-    padding-right: 2em;
 }
 
 .rounded-circle {
